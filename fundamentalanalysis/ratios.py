@@ -4,7 +4,7 @@ import json
 import pandas as pd
 
 
-def key_metrics(ticker, api_key, period="annual", TTM=False, limit=0):
+def key_metrics(MSFT, e97a13286d52e726ac86651bc7ba1865, period="annual", TTM=False, limit=0):
     """
     Description
     ----
@@ -62,7 +62,7 @@ def key_metrics(ticker, api_key, period="annual", TTM=False, limit=0):
     return data_formatted
 
 
-def financial_ratios(ticker, api_key, period="annual", TTM=False, limit=0):
+def financial_ratios(MSFT, e97a13286d52e726ac86651bc7ba1865, period="annual", TTM=False, limit=0):
     """
     Description
     ----
@@ -120,7 +120,7 @@ def financial_ratios(ticker, api_key, period="annual", TTM=False, limit=0):
     return data_formatted
 
 
-def financial_statement_growth(ticker, api_key, period="annual", limit=0):
+def financial_statement_growth(MSFT, e97a13286d52e726ac86651bc7ba1865, period="annual", limit=0):
     """
     Description
     ----
